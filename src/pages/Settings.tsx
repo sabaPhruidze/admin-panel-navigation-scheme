@@ -12,7 +12,7 @@ const Settings = () => {
   const toggleTheme = () => {
     const newTheme = Object.is(theme, "light") ? "dark" : "light";
     setTheme(newTheme);
-    settingsLogger(`theme change => ${newTheme}`);
+    settingsLogger(`theme change => ${newTheme}`); // here is the message
   };
   return (
     <section
