@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
+//using HOC map
 const LeftMenu = () => {
-  const menuItems = [
+  interface MenuItems {
+    id: number;
+    name: string;
+    path: string;
+  }
+  const menuItems: MenuItems[] = [
     {
       id: 1,
       name: "📊 Dashboard",
