@@ -1,5 +1,5 @@
-import React,{useState,useEffect} from 'react'
-//creating custom hook,using  Promise  and  forEach,
+import {useState,useEffect} from 'react'
+//creating custom hook,using  Promise  and  forEach
 
 
   interface Users {
