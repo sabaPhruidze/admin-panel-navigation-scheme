@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Users from "./pages/Users";
 import Settings from "./pages/Settings";
@@ -9,7 +9,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="h-screen flex bg-gray-100">
-        {/* left part */}
         <LeftMenu />
         {/* right part */}
         <div className="flex-1 p-10 overflow-y-auto">
