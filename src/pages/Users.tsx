@@ -52,7 +52,7 @@ const Users = () => {
   }, []);
 
   return (
-    <div className="bg-white p-8 rounded-lg shadow-md min-h-[25rem]">
+    <section className="bg-white p-8 rounded-lg shadow-md min-h-96">
       <h2 className="text-3xl font-bold mb-6">Users</h2>
       {/* when loading */}
       {loading && <p className="text-blue-600 animate-pulse">Loading...</p>}
@@ -100,7 +100,7 @@ const Users = () => {
           </table>
         </>
       )}
-    </div>
+    </section>
   );
 };
 
