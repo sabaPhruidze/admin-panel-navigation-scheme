@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Dashboard />} />
         <Route path="/users" element={<Users />} />
         <Route path="/settings" element={<Settings />} />
-        <Route path="/rame-sisulele" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
